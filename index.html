@@ -4,17 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Assignment</title>
+    <title>Document</title>
 
     
 </head>
 
 <body>
-    <header><H1>Student ID ALT/SOE/023/3790.</H1> 
+    <NAV>
+        <ul>
+        <a href="">HOME</a>   
+              <a href="#about">ABOUT</a>
+              <a href="#interest">INTEREST</a>
+              <a href="#goal">GOAL</a>
+              <a href="#signup">SIGNUP</a>
+        </ul>
+    </NAV>
+    <header>
+        <h1>ADAMS RUTH </h1>
+        <H1>Student ID ALT/SOE/023/3790.</H1> 
     </header>
 
 
-    <section>
+    <section id="about">
         <h1>About</h1>
         <p>My name is Adams Ruth, and I hail from Edo State. I hold a Bachelor's degree in Computer Science at
             Ambrose Alli University (AAU), I am currently pursuing my Master's in Computer Science at Lagos
@@ -33,7 +44,7 @@
             worlds of computer science, software engineering, and entrepreneurship.
         </p>
     </section>
-    <section>
+    <section id="interest">
         <h1>Interest</h1>
         <p>
             My interests lie in the heart of technology and software engineering. I am passionate about
@@ -49,7 +60,7 @@
             even in the fast-paced world of tech, my roots and values remain strong.
         </p>
     </section>
-    <section >
+    <section id="goal" >
         <h1>Goals</h1>
         <p>My goal isn't just a destination; it's a relentless drive to make a profound impact. It's a journey
             filled with opportunities, discoveries, and, most importantly, the chance to inspire others to
@@ -57,17 +68,17 @@
             for the stars and shape the future of technology itself.
         </p>
     </section>
-    <section >
+    <section  id="signup">
         <h2>Application Form</h2>
         <h3>Fill in your details</h3>
         <form>
             <div class="form-row">
                 <div class="labelinput-div">
-                    <label class="label" for="FirstName">First Name</label> <br>
+                    <label class="label" for="FirstName">First Name*</label> <br>
                     <input class="input-div" type="text" placeholder="Enter first name">
                 </div>
                 <div class="sec-two" >
-                    <label class="label" for="LastName">Last Name</label> <br>
+                    <label class="label" for="LastName">Last Name*</label> <br>
                     <input class="input-div" type="text" placeholder="Enter last name">
                 </div>
             </div>
@@ -75,7 +86,7 @@
 
             <div class="form-row">
                 <div class="labelinput-div">
-                    <labe class="label" l>Gender:</label>
+                    <labe class="label" l>Gender:*</label>
                     <br>
                     <select class="input-div" id="Gender" name="gender">
                         <option value="" disabled selected> select gender</option>
@@ -84,7 +95,7 @@
                     </select>
                 </div>
                 <div class="sec-two">
-                    <label class="label"  for="dob">Date of Birth</label>
+                    <label class="label"  for="dob">Date of Birth*</label>
                     <br>
                     <input  class="input-div"type="date" id="dob" name="dob">
                 </div>
@@ -92,12 +103,12 @@
 
             <div class="form-row">
                 <div class="labelinput-div">
-                    <label class="label" >Email Address</label>
+                    <label class="label" >Email Address*</label>
                     <br>
                     <input class="input-div" type="text" placeholder="Enter email address">
                 </div>
                 <div class="sec-two">
-                    <label class="label"  for="education">Educational Level</label>
+                    <label class="label"  for="education">Educational Level*</label>
                     <br>
                     <select class="input-div" id="education" name="education">
                         <option value="" disabled selected>Select level of education</option>
@@ -114,7 +125,7 @@
 
             <div class="form-row">
                 <div class="labelinput-div">
-                    <label class="label"  for="country">Country</label>
+                    <label class="label"  for="country">Country*</label>
                     <br>
                     <select class="input-div" id="Country" name="country">
                         <option value="">Select your country</option>
@@ -143,7 +154,7 @@
                     </select>
                 </div>
                 <div class="sec-two">
-                    <label class="label" >State/city of Residence</label>
+                    <label class="label" >State/city of Residence*</label>
                     <br>
                     <input class="input-div" type="text" placeholder="Enter you state of Residence">
                 </div>
@@ -153,7 +164,7 @@
 
             <div class="form-row">
                 <div class="labelinput-div">
-                    <label class="label"  for="Employment Status"> Employment Status</label>
+                    <label class="label"  for="Employment Status"> Employment Status*</label>
                     <br>
                     <select class="input-div" id="Employment" name="Employment">
                         <option value="" disabled selected>Select employment status</option>
@@ -163,14 +174,14 @@
                     </select>
                 </div>
                 <div class="sec-two">
-                    <label class="label" >Phone Number</label>
+                    <label class="label" >Phone Number*</label>
                     <br>
                     <input class="input-div" type="text" placeholder="09057916498">
                 </div>
             </div>
             <div class="form-row">
                 <div class="labelinput-div">
-                    <label class="label" >choose School</label>
+                    <label class="label" >choose School*</label>
                     <br>
                     <select class="input-div" id="school" name="school">
                         <option value="" disabled selected>Select school</option>
@@ -181,14 +192,14 @@
                 </div>
                 
                 <div class="sec-two">
-                    <label class="label"  for="Scholarship">Scholarship/Discount Code (optional)</label>
+                    <label class="label"  for="Scholarship">Scholarship/Discount Code (optional)*</label>
                     <br>
                     <input class="input-div" type="text" placeholder="Scholarship or student ID or discount code">
                 </div>
             </div>
             <div class="form-row">
                 <div class="labelinput-div">
-                    <label class="label"  for="School">how did you hear about us?</label>
+                    <label class="label"  for="School">how did you hear about us?*</label>
                     <br>
                     <select class="input-div" id="school" name="school">
                         <option value="" disabled selected>Select Channel</option>
@@ -197,14 +208,24 @@
                     </select>
                 </div>
                 <div class="sec-two">
-                    <label class="label" >Choose Course of Study</label>
+                    <label class="label" >Choose Course of Study*</label>
                     <br>
                     <select class="input-div" id="" name="course of study">
                         <option value="">school of engineering</option>
                         <option value="">school of datat science</option>
+                </div><div class="sec-two">
+                    <label class="label" >Choose Course of Study*</label>
+                    <br>
+                    <select class="input-div" id="" name="course of study">
                 </div>
             </div>   
+            <div>
+                <p>By clicking Register, you agree to our <a href="#">Term of use</a> and our <a href="#">Privacy Policy</a></p>
+              </div> 
+              <button>proceed</button>
+              <p>Already have an account? <a href="https://portal.altschoolafrica.com/">Sign in</a></p>
         </form>
+        
     </section>
 </body>
 </html>
